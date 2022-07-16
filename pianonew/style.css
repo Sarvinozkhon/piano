@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Comforter&family=Love+Light&family=Sacramento&family=Tangerine:wght@700&display=swap");
+body {
+  background-image: url(./img/21034617.jpg);
+
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: initial;
+}
+* {
+  color: rgb(252, 120, 120);
+}
+.piano {
+  width: 1400px;
+  height: 400px;
+  background-color: rgb(109, 5, 5);
+  display: flex;
+}
+.klavish {
+  border: 1px solid black;
+  border-width: 1px;
+  background-color: white;
+  width: 100px;
+  border-radius: 10px;
+  transition: all 2s ease-out;
+}
+.black {
+  background-color: black;
+  width: 70px;
+  height: 250px;
+  position: absolute;
+  left: 250px;
+  border-radius: 10px;
+  transition: all 2s ease-out;
+}
+
+.klavish:hover {
+  height: 380px;
+  width: 90px;
+
+  background-color: rgb(218, 212, 212);
+  cursor: grab;
+}
+.black:hover {
+  height: 270px;
+  cursor: grab;
+}
+.one {
+  position: absolute;
+  left: 70px;
+}
+.two {
+  position: absolute;
+  left: 170px;
+}
+.three {
+  position: absolute;
+  left: 345px;
+}
+.four {
+  position: absolute;
+  left: 440px;
+}
+.five {
+  position: absolute;
+  left: 535px;
+}
+.six {
+  position: absolute;
+  left: 720px;
+}
+.seven {
+  position: absolute;
+  left: 815px;
+}
+.eight {
+  position: absolute;
+  left: 1000px;
+}
+.nine {
+  position: absolute;
+  left: 1095px;
+}
+.ten {
+  position: absolute;
+  left: 1190px;
+}
+h1,
+h2 {
+  font-family: "Comforter", cursive;
+  font-family: "Love Light", cursive;
+  font-family: "Sacramento", cursive;
+  font-family: "Tangerine", cursive;
+  font-size: 40px;
+  color: crimson;
+  font-weight: bold;
+}
+.pressed {
+  height: 380px;
+  width: 90px;
+
+  background-color: rgb(187, 183, 183);
+}
+.blackPress {
+  height: 280px;
+}
